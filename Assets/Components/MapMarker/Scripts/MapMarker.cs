@@ -22,7 +22,7 @@ namespace MapSpace
             _markerRectTransform = GetComponent<RectTransform>();
         }
 
-        private void Update()
+        private void LateUpdate()
         {
             UpdateMarkerPosition();
         }
